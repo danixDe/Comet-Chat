@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useCallback, useEffect, useState } from 'react';
+import  { useCallback, useEffect, useState } from 'react';
 import '../../styles/CometChatCallLog/CometChatCallLogDetails.css';
 import { CometChat, User } from '@cometchat/chat-sdk-javascript';
 import { CometChatCallDetailsInfo } from './CometChatCallLogInfo';
