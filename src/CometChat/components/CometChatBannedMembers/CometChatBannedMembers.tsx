@@ -1,6 +1,5 @@
-/* eslint-disable react/display-name */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { JSX, useCallback, useEffect, useRef, useState } from 'react';
+import { JSX, useCallback, useEffect, useRef, useState } from 'react';
 import { CometChat } from '@cometchat/chat-sdk-javascript';
 import unbanIconURL from '../../assets/close.svg';
 import '../../styles/CometChatBannedMembers/CometChatBannedMembers.css';

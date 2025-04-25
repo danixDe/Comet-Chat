@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/display-name */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { JSX, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import  { JSX, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import '../../styles/CometChatCallLog/CometChatCallLogHistory.css';
 import {
   CalendarObject,

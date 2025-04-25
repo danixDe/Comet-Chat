@@ -6,7 +6,7 @@ import {
   CometChatUserEvents,
 } from '@cometchat/chat-uikit-react';
 import '../../styles/CometChatMessages/CometChatMessages.css';
-import React, { JSX, useEffect, useState } from 'react';
+import { JSX, useEffect, useState } from 'react';
 import { CometChat } from '@cometchat/chat-sdk-javascript';
 import { useBuilderSettingContext } from '../../context/BuilderSettingsContext';
 interface MessagesViewProps {

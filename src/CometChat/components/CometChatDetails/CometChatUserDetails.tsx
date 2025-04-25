@@ -1,6 +1,6 @@
 import { CometChatAvatar, getLocalizedString } from '@cometchat/chat-uikit-react';
 import '../../styles/CometChatDetails/CometChatUserDetails.css';
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { useBuilderSettingContext } from '../../context/BuilderSettingsContext';
 import { AppContext } from '../../context/AppContext';
 

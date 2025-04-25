@@ -1,6 +1,5 @@
-/* eslint-disable react/display-name */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { JSX, useCallback, useMemo } from 'react';
+import { JSX, useCallback, useMemo } from 'react';
 import '../../styles/CometChatCallLog/CometChatCallLogParticipants.css';
 import {
   CalendarObject,

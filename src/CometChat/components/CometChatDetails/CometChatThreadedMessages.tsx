@@ -7,7 +7,6 @@ import {
   getLocalizedString,
 } from '@cometchat/chat-uikit-react';
 import { CometChat } from '@cometchat/chat-sdk-javascript';
-import React from 'react';
 import { CallLog } from '@cometchat/calls-sdk-javascript';
 import { useBuilderSettingContext } from '../../context/BuilderSettingsContext';
 interface ThreadProps {

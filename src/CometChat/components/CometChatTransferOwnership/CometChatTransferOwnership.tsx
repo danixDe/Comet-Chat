@@ -1,4 +1,4 @@
-import React, { JSX, useCallback, useRef, useState } from 'react';
+import  { JSX, useCallback, useRef, useState } from 'react';
 import { CometChat } from '@cometchat/chat-sdk-javascript';
 import { useCometChatTransferOwnership } from './useCometChatTransferOwnership';
 import '../../styles/CometChatTransferOwnership/CometChatTransferOwnership.css';

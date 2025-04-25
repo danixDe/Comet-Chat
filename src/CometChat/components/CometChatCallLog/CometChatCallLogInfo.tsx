@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { JSX, useCallback, useEffect, useState } from 'react';
+import { JSX, useCallback, useEffect, useState } from 'react';
 import '../../styles/CometChatCallLog/CometChatCallLogInfo.css';
 import {
   CalendarObject,

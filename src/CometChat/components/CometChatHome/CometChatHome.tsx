@@ -928,10 +928,7 @@ function CometChatHome({ defaultUser, defaultGroup }: CometChatHomeProps) {
         groupListener,
         new CometChat.GroupListener({
           onGroupMemberScopeChanged: (
-            message: CometChat.Action,
             changedUser: CometChat.GroupMember,
-            newScope: CometChat.GroupMemberScope,
-            oldScope: CometChat.GroupMemberScope,
             changedGroup: CometChat.Group
           ) => {
             if (changedGroup.getGuid() !== group?.getGuid()) {
@@ -1572,9 +1569,7 @@ function CometChatHome({ defaultUser, defaultGroup }: CometChatHomeProps) {
       listenerId,
       new CometChat.GroupListener({
         onGroupMemberBanned: (
-          message: CometChat.Action,
           kickedUser: CometChat.User,
-          kickedBy: CometChat.User,
           kickedFrom: CometChat.Group
         ) => {
           if (
@@ -1587,9 +1582,7 @@ function CometChatHome({ defaultUser, defaultGroup }: CometChatHomeProps) {
           }
         },
         onGroupMemberKicked: (
-          message: CometChat.Action,
           kickedUser: CometChat.User,
-          kickedBy: CometChat.User,
           kickedFrom: CometChat.Group
         ) => {
           if (

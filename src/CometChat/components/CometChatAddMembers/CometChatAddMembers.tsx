@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { CSSProperties, JSX, useCallback, useRef, useState } from 'react';
+import { CSSProperties, JSX, useCallback, useRef, useState } from 'react';
 import '../../styles/CometChatAddMembers/CometChatAddMembers.css';
 import { CometChat, User } from '@cometchat/chat-sdk-javascript';
 import { useCometChatAddMembers } from './useCometChatAddMembers';

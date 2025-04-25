@@ -27,7 +27,9 @@ npm install @cometchat/chat-uikit-react@6.0.3 @cometchat/calls-sdk-javascript @c
 
   Solution:
    After Debugging found out the CometChat-root class with id #systemTheme has the CometChatBuilderApp to be set in positon: relative causing the builder app to be hindered to be full screen and the position is set fixed as a temporary solution and postioned it top, bottom, left and right to be 0.
-
+3. While deploying there are some unused elements caused problems
+    problem: In some files React is declared but never used.
+    and in CometChatHome in lines 931,933,934,1577,1592 message, newScope and oldScope are declared but never used and in lines 1577 and 1590 kickedby is declared but never used. this caused vercel problems in deploying.
 ## Pre-Setup Instructions: 
 
 1. **Visit the CometChat Website**: Go to [CometChat](https://www.cometchat.com).

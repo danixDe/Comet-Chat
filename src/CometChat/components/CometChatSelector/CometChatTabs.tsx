@@ -3,7 +3,7 @@ import callsIcon from '../../assets/calls.svg';
 import usersIcon from '../../assets/users.svg';
 import groupsIcon from '../../assets/groups.svg';
 import '../../styles/CometChatSelector/CometChatTabs.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { getLocalizedString } from '@cometchat/chat-uikit-react';
 import { useBuilderSettingContext } from '../../context/BuilderSettingsContext';
 

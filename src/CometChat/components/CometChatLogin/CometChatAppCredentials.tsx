@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import cometChatLogo from '../../assets/cometchat_logo.svg';
 import cometChatLogoDark from '../../assets/cometchat_logo_dark.svg';
 import usIcon from '../../assets/us-icon.svg';
