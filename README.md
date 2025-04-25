@@ -15,6 +15,18 @@ Before running the app, ensure you have the following:
 
 - **CometChat Account**: Set up your CometChat app and obtain your `APP_ID`, `AUTH_KEY`, and `REGION`.
 - **Node.js**: Ensure Node.js and npm are installed.
+## Challenges Faced
+
+1. Initially faced an error while installing @cometchat/chat-uikit-react the package wasn’t found in the public npm registry.
+
+Solution: After checking the documentation, I used the correct scoped version available via:
+
+npm install @cometchat/chat-uikit-react@6.0.3 @cometchat/calls-sdk-javascript @cometchat/chat-sdk-javascript
+
+2. Faced hard time making the CometChatBuilderApp to be full screen size and it's maybe due to the root's initial set padding.
+
+  Solution:
+   After Debugging found out the CometChat-root class with id #systemTheme has the CometChatBuilderApp to be set in positon: relative causing the builder app to be hindered to be full screen and the position is set fixed as a temporary solution and postioned it top, bottom, left and right to be 0.
 
 ## Pre-Setup Instructions: 
 
